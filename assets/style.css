@@ -1,0 +1,68 @@
+body{
+    background-color: bisque;
+}
+
+
+header{
+    text-align: center;
+    
+}
+
+
+header li{
+    margin: 2em;
+    display: inline;
+    color: brown;
+}
+
+
+
+#main-content{
+    border:2px solid black;
+    margin-bottom: 3em;
+    padding: 3em;
+   
+    
+}
+
+.tab-number{
+    text-align: center;
+    display: inline-block;
+    margin:0.1em;
+    padding: 1em;
+    border:2px solid black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 3em;
+    
+
+}
+
+#empty-div{
+    background-color: darkgreen;
+}
+
+.color{
+    background-color:red;
+    font-weight: bold;
+  
+    
+}
+
+
+button{
+    display:inline-block ;
+    width: 8em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 5px;
+}
+
+#numberEx h3{
+    display:inline-block;
+    margin:0.5em;
+    font-size: 1.5em;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 10px;
+}
