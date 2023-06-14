@@ -19,8 +19,10 @@ header li{
 
 #main-content{
     border:2px solid black;
-    margin-bottom: 3em;
+    margin: 2em;
     padding: 3em;
+    border-radius: 20px;
+    
    
     
 }
@@ -28,15 +30,18 @@ header li{
 .tab-number{
     text-align: center;
     display: inline-block;
-    margin:0.1em;
+    margin:0.3em;
     padding: 1em;
     border:2px solid black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
     border-radius: 10px;
     width: 3em;
-    
-
+    -webkit-box-shadow: inset -1px -2px 62px -1px #000000,2px 5px 28px 12px #FF291D;
+-moz-box-shadow: inset -1px -2px 62px -1px #000000,2px 5px 28px 12px #FF291D;
+-o-box-shadow: inset -1px -2px 62px -1px #000000,2px 5px 28px 12px #FF291D;
+box-shadow: inset -1px -2px 62px -1px #000000,2px 5px 28px 12px #FF291D;
+border-radius: 50px;
 }
 
 #empty-div{
@@ -51,18 +56,41 @@ header li{
 }
 
 
-button{
-    display:inline-block ;
-    width: 8em;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border-radius: 5px;
+#button1{
+    box-shadow: 0px 2px 0px 0px #0d170b;
+	background:linear-gradient(to bottom, #44c767 5%, #458224 100%);
+	background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #537356;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:22px;
+	padding:16px 65px;
+	text-decoration:none;
+	text-shadow:2px 0px 50px #000000;
+}
+#Button1:hover {
+	background:linear-gradient(to bottom, #458224 5%, #44c767 100%);
+	background-color:#458224;
+}
+#Button1:active {
+	position:relative;
+	top:1px;
 }
 
-#numberEx h3{
-    display:inline-block;
-    margin:0.5em;
-    font-size: 1.5em;
-    font-weight: bold;
-    border: 1px solid black;
-    border-radius: 10px;
+        
+
+
+
+
+.firstclass{
+    border:1px solid black;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
 }
+
+
+
